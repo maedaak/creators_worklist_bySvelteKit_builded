@@ -1,0 +1,4 @@
+import{s as x,n as l}from"../chunks/scheduler.a7e64d23.js";import{S as v,i as _,g as p,s as C,h as f,y as u,c as d,k as r,a as o,f as i}from"../chunks/index.86c1c9b9.js";function k(h){let e,c=`一覧ページの著作物リストはCiNii Books APIから著者ID検索により取得しています。\r
+この著者ID指定を変えることで、特定の著者の著作リストを自動的に生成するように作ってみました。\r
+その際、著作物の言語は日本語に絞っています。これは詳細ページに使っているOpenDBとの相性を考慮してのことです。\r
+Jamstackによる静的ページ生成には、フレームワークとしてSvelteKitを使っています。`,a,t,m="一覧に戻る";return{c(){e=p("p"),e.textContent=c,a=C(),t=p("a"),t.textContent=m,this.h()},l(s){e=f(s,"P",{["data-svelte-h"]:!0}),u(e)!=="svelte-1ekvgzz"&&(e.textContent=c),a=d(s),t=f(s,"A",{class:!0,href:!0,role:!0,["data-svelte-h"]:!0}),u(t)!=="svelte-vfexfw"&&(t.textContent=m),this.h()},h(){r(t,"class","btn btn-primary"),r(t,"href","../"),r(t,"role","button")},m(s,n){o(s,e,n),o(s,a,n),o(s,t,n)},p:l,i:l,o:l,d(s){s&&(i(e),i(a),i(t))}}}class y extends v{constructor(e){super(),_(this,e,null,k,x,{})}}export{y as component};
